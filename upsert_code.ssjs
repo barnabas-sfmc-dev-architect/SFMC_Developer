@@ -730,7 +730,6 @@
         };
         dataExt.Rows.Update(fieldsToUpdate1040, ["ErrorCode"], [1040]);
 
-        //Sample Update
 
 
   } catch(error) {
