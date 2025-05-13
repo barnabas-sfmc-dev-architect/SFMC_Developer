@@ -7,7 +7,7 @@ try {
     //Initialize List using listName
     var listName = "PublicationListName"
     var myList = List.Init(listName); 
-    var list_retrieve = List.Retrieve({Property:"ListName",SimpleOperator:"equals",Value:"CaribbeanTest"});
+    var list_retrieve = List.Retrieve({Property:"ListName",SimpleOperator:"equals",Value:"PublicationTest"});
     //Write(Stringify(list_retrieve));
 
 //Add Subscribers
@@ -16,7 +16,7 @@ try {
     //Initialize List using Customer Key
     var listCustomerKey = "PublicationListCustomerKey"
     var myList2 = List.Init(listCustomerKey);
-    var subscriber_add = myList2.Subscribers.Add("babz978@gmail.com");
+    var subscriber_add = myList2.Subscribers.Add("sample@gmail.com");
     Write(subscriber_add);
 
 
