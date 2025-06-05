@@ -7,7 +7,7 @@ try {
     //Initialize List using listName
     var listName = "PublicationListName"
     var myList = List.Init(listName); 
-    var list_retrieve = List.Retrieve({Property:"ListName",SimpleOperator:"equals",Value:"PublicationTest"});
+    var list_retrieve = List.Retrieve({Property:"ListName",SimpleOperator:"equals",Value:listName});
     //Write(Stringify(list_retrieve));
 
 //Add Subscribers
